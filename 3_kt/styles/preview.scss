@@ -1,0 +1,31 @@
+.preview {
+  margin-bottom: 130px;
+
+  .preview-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .preview-wrap-right {
+      max-width: 488px;
+
+      .preview-wrap-right__title {
+        font-size: 87px;
+        text-transform: capitalize;
+        margin-bottom: 50px;
+
+        span {
+          display: inline-block;
+        }
+      }
+      .preview-wrap-right__descr {
+        max-width: 310px;
+        margin-bottom: 33px;
+      }
+      .preview-wrap-right__btns {
+        display: flex;
+        gap: 20px;
+      }
+    }
+  }
+}

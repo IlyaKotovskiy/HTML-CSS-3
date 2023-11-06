@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #010922;
+  padding: 60px 0;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 17px 0;
+  width: 180px;
+  letter-spacing: 4.68px;
+  text-transform: uppercase;
+  border: 1px solid #89d0d1;
+  border-radius: 50px;
+  background-color: transparent;
+  transition: border-color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #8d8dda;
+    border-color: #8d8dda;
+  }
+}
+
+@import 'loader';
+@import 'header';
+@import 'preview';
+@import 'companies';
+@import 'analytics';
+@import 'media';
